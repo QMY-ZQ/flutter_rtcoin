@@ -30,8 +30,9 @@ class _ToolbarState extends State<Toolbar> {
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(
-        selectedItemColor: Color.fromRGBO(43, 76, 126, 1),
-        unselectedItemColor: Color.fromRGBO(43, 76, 126, .5),
+        selectedItemColor: Color.fromRGBO(250, 249, 249, 1),
+        unselectedItemColor: Color.fromRGBO(244, 245, 245, 0.557),
+        backgroundColor: Color.fromRGBO(1, 1, 1, 1),
         currentIndex: cuttentIndex,
         type: BottomNavigationBarType.fixed,
         onTap: (index) {
