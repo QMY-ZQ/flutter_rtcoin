@@ -1,13 +1,15 @@
 import 'package:flutter/material.dart';
 
 class Mine extends StatefulWidget {
-  _Mine createState() => _Mine();
+  const Mine({Key? key}) : super(key: key);
+  @override
+  State<Mine> createState() => _Mine();
 }
 
 class _Mine extends State<Mine> {
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
+    return const SingleChildScrollView(
         child: Column(children: <Widget>[Stack(children: <Widget>[])]));
   }
 }
