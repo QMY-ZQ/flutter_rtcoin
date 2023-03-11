@@ -58,11 +58,11 @@ flutter:
 
     # 配置静态资源
     assets:
-        - lib/assets/
-        - lib/assets/home/
-        - lib/assets/my/
-        - lib/assets/notice/
-        - lib/assets/logo.png
+        - assets/
+        - assets/home/
+        - assets/my/
+        - assets/notice/
+        - assets/logo.png
 
     # An image asset can refer to one or more resolution-specific "variants", see
     # https://flutter.dev/assets-and-images/#resolution-aware
